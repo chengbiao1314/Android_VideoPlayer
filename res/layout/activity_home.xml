@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:layout_margin="20dip"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="20sp"
+        android:text="This is a home activity"/>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:layout_margin="20dip"
+        android:background="@android:color/holo_blue_bright">
+	    <TextView
+	        android:id="@+id/tv_temp_tip"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/holo_red_light"
+	        android:textSize="20sp"
+	        android:textStyle="bold"
+	        android:text="10s"/>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/holo_purple"
+	        android:textSize="20sp"
+	        android:text="  later,you will goto play video..."/>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btn_temp_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:layout_margin="20dip"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="20sp"
+        android:text="go to play video now..."/>
+
+</LinearLayout>
